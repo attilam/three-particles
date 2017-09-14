@@ -1,0 +1,20 @@
+{
+  "name": "three-particles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js --live",
+    "build": "browserify index.js | uglifyjs > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.87.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "runjs": "^4.0.1"
+  }
+}
